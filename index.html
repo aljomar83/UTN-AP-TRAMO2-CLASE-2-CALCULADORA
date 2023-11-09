@@ -7,35 +7,36 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
-<form id="miformulario" name="">
-  <label>Número 1: </label>
-  <input type="number" name="" id="valor1" autofocus placeholder="Escriba un número">
-  <button id="limpiar">limpiar campos</button>
+  <header>
 
-  <br>
-  <br>
-  <label>Número 2: </label>
-  <input type="number" name="" id="valor2" autofocus placeholder="Escriba otro número">
-  <br>
-  <br>
-
-  <button type="button" id="sumar">sumar</button>
-  <button type="button" id="restar">restar</button>
-  <button type="button" id="multiplicar">multiplicar</button>
-  <button type="button" id="dividir">dividir</button>
-
-<p>El resultado es: </p> <span id="resultado"></span>
+<h1>calculadora</h1>
 
 
+  </header>
+<form id="calculadora" name="calculadora">
+    <div class="operandos">
+      <label>Número 1:
+      </label>
+      <input type="number" name="" id="valor1" autofocus placeholder="Escriba un número">
+      <label>Número 2:
+      </label>
+      <input type="number" name="" id="valor2" autofocus placeholder="Escriba otro número">
+    </div>
+    
+    <button id="limpiar">limpiar campos</button>
+    
+    <div class="cajaBotones">
+      <button type="button" id="sumar">sumar</button>
+      <button type="button" id="restar">restar</button>
+      <button type="button" id="multiplicar">multiplicar</button>
+      <button type="button" id="dividir">dividir</button>  
+    </div>
+
+    <p>El resultado es: </p> <span id="resultado"></span>
 
 </form>
 
-
-
-
-  </section>
-  <SCRIpt src="app.js"></SCRIpt>
+<SCRIpt src="app.js"></SCRIpt>
 </body>
 </html>  
   

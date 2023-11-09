@@ -4,3 +4,30 @@
   padding: 0;
   box-sizing: border-box;
   }
+
+body{
+  background-image: url(imagenes/calculos.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#calculadora{
+  background-color: aquamarine;
+  opacity: 60%;
+  font-size: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 500px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px red;
+}
+
+.operandos{
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
