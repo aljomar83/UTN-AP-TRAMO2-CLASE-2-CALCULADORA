@@ -1,27 +1,10 @@
-function sumar() {
-  const num1 = parseFloat(document.getElementById('input1').value);
-  const num2 = parseFloat(document.getElementById('input2').value);
-  document.getElementById('resultado').textContent = num1 + num2;
+function limpiar(){
+  document.getElementById('contenedor-form').reset();
 }
 
-function restar() {
-  const num1 = parseFloat(document.getElementById('input1').value);
-  const num2 = parseFloat(document.getElementById('input2').value);
-  document.getElementById('resultado').textContent = num1 - num2;
-}
+function sumar(){
+  var x= parseInt(document.getElementById(valor1).value);
+  var y= parseInt(document.getElementById(valor2).value);
+  document.getElementById('el-resultado').innerHTML = x+y;
 
-function multiplicar() {
-  const num1 = parseFloat(document.getElementById('input1').value);
-  const num2 = parseFloat(document.getElementById('input2').value);
-  document.getElementById('resultado').textContent = num1 * num2;
-}
-
-function dividir() {
-  const num1 = parseFloat(document.getElementById('input1').value);
-  const num2 = parseFloat(document.getElementById('input2').value);
-  if (num2 === 0) {
-      document.getElementById('resultado').textContent = "No se puede dividir por cero.";
-  } else {
-      document.getElementById('resultado').textContent = num1 / num2;
-  }
 }
